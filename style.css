@@ -1,15 +1,36 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
-	max-width: 1200px;
-	margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .flex {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.cartaz {
+  width: 120px;
+  height: 173px;
+}
+
+.catalogo div {
+  margin: 0 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.navitem a {
+  text-decoration: none;
+}
+
+header {
+  margin: 20px;
 }
