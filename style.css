@@ -48,17 +48,38 @@
   margin: 0 10px;
 }
 
+/* nav */
+header {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+header a {
+  text-decoration: none;
+  padding: 5px;
+}
+.logo {
+  
+}
+.nav {
+  align-items: center;
+}
+.nav-menu {
+}
+.navitem a {
+  padding: 20px;
+}
 ul {
   list-style: none;
 }
-
-.navitem a {
-  text-decoration: none;
+.busca {
+  align-items: center; 
+}
+.login {
+  align-items: center;
 }
 
-header {
-  margin: 20px;
-}
+/* hero */
 .hero {
   background-image: url(https://ingresso-a.akamaihd.net/prd/img/movie/homem-aranha-sem-volta-para-casa/1aa86484-1862-4f7d-8cc0-ce4eb5f9a328.jpg);
   background-size: cover;
