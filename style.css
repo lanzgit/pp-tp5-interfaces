@@ -49,8 +49,6 @@ header a:hover {
 .nav {
   align-items: center;
 }
-.nav-menu {
-}
 .navitem a {
   padding: 20px;
 }
@@ -102,6 +100,8 @@ ul {
 }
 .hero-content {
   color: #155758;
+  text-shadow: 1px 1px #12b1b3;
+  font-weight: 700;
 }
 .btn {
   margin-top: 10px;
